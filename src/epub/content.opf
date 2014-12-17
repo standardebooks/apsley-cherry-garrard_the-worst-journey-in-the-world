@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" prefix="cc: http://creativecommons.org/ns, se: http://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world</dc:identifier>
+		<dc:date>2014-05-25T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">2014-12-16T22:57:47Z</meta>
+		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
+		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
+		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
+		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
+		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
+		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
+		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com</meta>
+		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
+		<link href="epub/text/unlicense.xhtml" rel="cc:license"/>
+		<link href="epub/onix.xml" rel="onix-record"/>
+		<dc:title id="title">The Worst Journey in the World</dc:title>
+		<meta property="file-as" refines="#title">Worst Journey in the World, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Antarctic 1910-1913</dc:title>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">The Worst Journey in the World: Antarctic 1910-1913</dc:title>
+		<meta property="file-as" refines="#fulltitle">Worst Journey in the World, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">British Antarctic ("Terra Nova") Expedition (1910-1913)</dc:subject>
+		<dc:subject id="subject-2">Cherry-Garrard, Apsley, 1886-1959--Travel--Antarctica</dc:subject>
+		<dc:subject id="subject-3">Antarctica--Discovery and exploration--British</dc:subject>
+		<dc:subject id="subject-4">Scott, Robert Falcon, 1868-1912--Travel--Antarctica</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">http://lccn.loc.gov/2002025089</meta>
+		<meta property="meta-auth" refines="#subject-2">http://lccn.loc.gov/2002025089</meta>
+		<meta property="meta-auth" refines="#subject-3">http://lccn.loc.gov/2002025089</meta>
+		<meta property="meta-auth" refines="#subject-4">http://lccn.loc.gov/2002025089</meta>
+		<meta property="se:subject">Travel</meta>
+		<meta property="se:subject">Non-fiction</meta>
+		<meta property="se:subject">Memoir</meta>
+		<dc:description id="description">The travelogue of a member of Robert Scott's ill-fated Antarctic expedition of 1910.</dc:description>
+		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
+		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
+<dc:language>en-GB</dc:language>
+		<dc:source>http://www.gutenberg.org/ebooks/14363</dc:source>
+		<dc:source>https://archive.org/stream/worstjourneyinwo01</dc:source>
+		<dc:source>https://archive.org/stream/worstjourneyinwo02</dc:source>
+		<meta property="se:production-notes">Some very long inline quotations have been broken out into blockquotes; they've been marked with the data-note="breakout" attribute.  All quotations in their own paragraph have been wrapped in blockquotes.  Ship names have been italicized.  "Ibid." endnotes have been replaced with their actual reference.  Instances of "Fahr." replaced with "F".</meta>
+		<meta property="se:word-count">0</meta>
+		<meta property="se:url.wikipedia">https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World</meta>
+		<dc:creator id="author">Apsley Cherry-Garrard</dc:creator>
+		<meta property="file-as" refines="#author">Cherry-Garrard, Apsley</meta>
+		<meta property="se:url.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<dc:contributor id="illustrator">Edward A. Wilson</dc:contributor>
+		<meta property="file-as" refines="#illustrator">Wilson, Edward A.</meta>
+		<meta property="se:url.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Edward_Adrian_Wilson</meta>
+		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
+		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
+		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
+		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
+		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
+		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-2">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-2">http://http://www.pgdp.net</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">typ</meta>
+	</metadata>
+	<manifest>
+		<item href="onix.xml" id="onix.xml" media-type="application/xml"/>
+		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item href="css/core.css" id="core.css" media-type="text/css"/>
+		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="images/a-blizzard-camp.jpg" id="a-blizzard-camp.jpg" media-type="image/jpeg"/>
+		<item href="images/a-cornice-of-snow.jpg" id="a-cornice-of-snow.jpg" media-type="image/jpeg"/>
+		<item href="images/adams-mountains.jpg" id="adams-mountains.jpg" media-type="image/jpeg"/>
+		<item href="images/a-halo-round-the-moon.jpg" id="a-halo-round-the-moon.jpg" media-type="image/jpeg"/>
+		<item href="images/amundsens-polheim.jpg" id="amundsens-polheim.jpg" media-type="image/jpeg"/>
+		<item href="images/a-panoramic-view-of-ross-island-from-crater-hill.jpg" id="a-panoramic-view-of-ross-island-from-crater-hill.jpg" media-type="image/jpeg"/>
+		<item href="images/a-pony-camp-on-the-barrier.jpg" id="a-pony-camp-on-the-barrier.jpg" media-type="image/jpeg"/>
+		<item href="images/a-procession-of-emperors.jpg" id="a-procession-of-emperors.jpg" media-type="image/jpeg"/>
+		<item href="images/a-sea-leopard.jpg" id="a-sea-leopard.jpg" media-type="image/jpeg"/>
+		<item href="images/a-summer-view-over-cape-evans.jpg" id="a-summer-view-over-cape-evans.jpg" media-type="image/jpeg"/>
+		<item href="images/atch.jpg" id="atch.jpg" media-type="image/jpeg"/>
+		<item href="images/a-weddell-seal.jpg" id="a-weddell-seal.jpg" media-type="image/jpeg"/>
+		<item href="images/below-the-cloudmaker.jpg" id="below-the-cloudmaker.jpg" media-type="image/jpeg"/>
+		<item href="images/buckley-island-1.jpg" id="buckley-island-1.jpg" media-type="image/jpeg"/>
+		<item href="images/buckley-island-2.jpg" id="buckley-island-2.jpg" media-type="image/jpeg"/>
+		<item href="images/camping-after-dark.jpg" id="camping-after-dark.jpg" media-type="image/jpeg"/>
+		<item href="images/camp-on-the-barrier.jpg" id="camp-on-the-barrier.jpg" media-type="image/jpeg"/>
+		<item href="images/camp-work-in-a-blizzard.jpg" id="camp-work-in-a-blizzard.jpg" media-type="image/jpeg"/>
+		<item href="images/cape-evans-from-arrival-heights.jpg" id="cape-evans-from-arrival-heights.jpg" media-type="image/jpeg"/>
+		<item href="images/cape-evans-in-winter.jpg" id="cape-evans-in-winter.jpg" media-type="image/jpeg"/>
+		<item href="images/cape-royds-from-cape-barne.jpg" id="cape-royds-from-cape-barne.jpg" media-type="image/jpeg"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/cherry-garrard-keohane-atkinson.jpg" id="cherry-garrard-keohane-atkinson.jpg" media-type="image/jpeg"/>
+		<item href="images/dogskin-mitts.jpg" id="dogskin-mitts.jpg" media-type="image/jpeg"/>
+		<item href="images/down-a-crevasse.jpg" id="down-a-crevasse.jpg" media-type="image/jpeg"/>
+		<item href="images/emperors-barrier-and-sea-ice.jpg" id="emperors-barrier-and-sea-ice.jpg" media-type="image/jpeg"/>
+		<item href="images/emperors.jpg" id="emperors.jpg" media-type="image/jpeg"/>
+		<item href="images/erebus-and-lands-end.jpg" id="erebus-and-lands-end.jpg" media-type="image/jpeg"/>
+		<item href="images/erebus-behind-great-razorback.jpg" id="erebus-behind-great-razorback.jpg" media-type="image/jpeg"/>
+		<item href="images/from-mount-deakin-to-mount-kinsey.jpg" id="from-mount-deakin-to-mount-kinsey.jpg" media-type="image/jpeg"/>
+		<item href="images/from-mount-kyffin-to-mount-patrick.jpg" id="from-mount-kyffin-to-mount-patrick.jpg" media-type="image/jpeg"/>
+		<item href="images/from-new-zealand-to-the-south-pole.jpg" id="from-new-zealand-to-the-south-pole.jpg" media-type="image/jpeg"/>
+		<item href="images/from-the-sea-1.jpg" id="from-the-sea-1.jpg" media-type="image/jpeg"/>
+		<item href="images/from-the-sea-2.jpg" id="from-the-sea-2.jpg" media-type="image/jpeg"/>
+		<item href="images/frontispiece.jpg" id="frontispiece.jpg" media-type="image/jpeg"/>
+		<item href="images/frozen-sea-and-cliffs-of-ice.jpg" id="frozen-sea-and-cliffs-of-ice.jpg" media-type="image/jpeg"/>
+		<item href="images/hut-point-from-observation-hill.jpg" id="hut-point-from-observation-hill.jpg" media-type="image/jpeg"/>
+		<item href="images/hut-point.jpg" id="hut-point.jpg" media-type="image/jpeg"/>
+		<item href="images/ice-pressure-at-a.jpg" id="ice-pressure-at-a.jpg" media-type="image/jpeg"/>
+		<item href="images/krisravitza.jpg" id="krisravitza.jpg" media-type="image/jpeg"/>
+		<item href="images/leading-ponies-on-the-barrier.jpg" id="leading-ponies-on-the-barrier.jpg" media-type="image/jpeg"/>
+		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/mcmurdo-sound.jpg" id="mcmurdo-sound.jpg" media-type="image/jpeg"/>
+		<item href="images/midnight.jpg" id="midnight.jpg" media-type="image/jpeg"/>
+		<item href="images/mount-elizabeth-mount-anne-and-socks-glacier.jpg" id="mount-elizabeth-mount-anne-and-socks-glacier.jpg" media-type="image/jpeg"/>
+		<item href="images/mount-f-l-smith-and-the-land.jpg" id="mount-f-l-smith-and-the-land.jpg" media-type="image/jpeg"/>
+		<item href="images/mount-longstaff.jpg" id="mount-longstaff.jpg" media-type="image/jpeg"/>
+		<item href="images/mount-patrick.jpg" id="mount-patrick.jpg" media-type="image/jpeg"/>
+		<item href="images/mt-erebus.jpg" id="mt-erebus.jpg" media-type="image/jpeg"/>
+		<item href="images/mt-erebus-the-ramp-and-the-hut.jpg" id="mt-erebus-the-ramp-and-the-hut.jpg" media-type="image/jpeg"/>
+		<item href="images/mt-kyffin.jpg" id="mt-kyffin.jpg" media-type="image/jpeg"/>
+		<item href="images/night-camp-buckley-island.jpg" id="night-camp-buckley-island.jpg" media-type="image/jpeg"/>
+		<item href="images/north-bay-and-the-barne-glacier.jpg" id="north-bay-and-the-barne-glacier.jpg" media-type="image/jpeg"/>
+		<item href="images/panorama-and-map-of-the-winter-journey.jpg" id="panorama-and-map-of-the-winter-journey.jpg" media-type="image/jpeg"/>
+		<item href="images/parhelia.jpg" id="parhelia.jpg" media-type="image/jpeg"/>
+		<item href="images/priestley-and-campbell.jpg" id="priestley-and-campbell.jpg" media-type="image/jpeg"/>
+		<item href="images/seals-1.jpg" id="seals-1.jpg" media-type="image/jpeg"/>
+		<item href="images/seals-2.jpg" id="seals-2.jpg" media-type="image/jpeg"/>
+		<item href="images/sledging-in-a-high-wind.jpg" id="sledging-in-a-high-wind.jpg" media-type="image/jpeg"/>
+		<item href="images/sledging-spoon-cup-and-pannikin.jpg" id="sledging-spoon-cup-and-pannikin.jpg" media-type="image/jpeg"/>
+		<item href="images/sounding.jpg" id="sounding.jpg" media-type="image/jpeg"/>
+		<item href="images/south-trinidad.jpg" id="south-trinidad.jpg" media-type="image/jpeg"/>
+		<item href="images/terra-nova.jpg" id="terra-nova.jpg" media-type="image/jpeg"/>
+		<item href="images/the-barrier-pressure-at-cape-crozier.jpg" id="the-barrier-pressure-at-cape-crozier.jpg" media-type="image/jpeg"/>
+		<item href="images/the-dog-party-leaves-hut-point.jpg" id="the-dog-party-leaves-hut-point.jpg" media-type="image/jpeg"/>
+		<item href="images/the-dog-teams-leaving.jpg" id="the-dog-teams-leaving.jpg" media-type="image/jpeg"/>
+		<item href="images/the-emperors-rookery.jpg" id="the-emperors-rookery.jpg" media-type="image/jpeg"/>
+		<item href="images/the-hut-erebus-and-whale-back-clouds.jpg" id="the-hut-erebus-and-whale-back-clouds.jpg" media-type="image/jpeg"/>
+		<item href="images/the-knoll-behind-the-cliffs.jpg" id="the-knoll-behind-the-cliffs.jpg" media-type="image/jpeg"/>
+		<item href="images/the-last-of-the-dogs.jpg" id="the-last-of-the-dogs.jpg" media-type="image/jpeg"/>
+		<item href="images/the-mountains-which-lie-between.jpg" id="the-mountains-which-lie-between.jpg" media-type="image/jpeg"/>
+		<item href="images/the-mule-party-leaves-cape-evans.jpg" id="the-mule-party-leaves-cape-evans.jpg" media-type="image/jpeg"/>
+		<item href="images/the-polar-journey.jpg" id="the-polar-journey.jpg" media-type="image/jpeg"/>
+		<item href="images/the-roaring-forties.jpg" id="the-roaring-forties.jpg" media-type="image/jpeg"/>
+		<item href="images/the-seas-fringe-of-ice.jpg" id="the-seas-fringe-of-ice.jpg" media-type="image/jpeg"/>
+		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="images/titus-oates.jpg" id="titus-oates.jpg" media-type="image/jpeg"/>
+		<item href="images/transit-sketch-for-the-lower-glacier-depot.jpg" id="transit-sketch-for-the-lower-glacier-depot.jpg" media-type="image/jpeg"/>
+		<item href="images/where-evans-died.jpg" id="where-evans-died.jpg" media-type="image/jpeg"/>
+		<item href="text/appendix.xhtml" id="appendix.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-9.xhtml" id="chapter-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-10.xhtml" id="chapter-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-11.xhtml" id="chapter-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-12.xhtml" id="chapter-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-13.xhtml" id="chapter-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-14.xhtml" id="chapter-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-15.xhtml" id="chapter-15.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-16.xhtml" id="chapter-16.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-17.xhtml" id="chapter-17.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-18.xhtml" id="chapter-18.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-19.xhtml" id="chapter-19.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/glossary.xhtml" id="glossary.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/loi.xhtml" id="loi.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preamble.xhtml" id="preamble.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/unlicense.xhtml" id="unlicense.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+	</manifest>
+	<spine>
+		<itemref idref="titlepage.xhtml"/>
+		<itemref idref="preamble.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="chapter-1.xhtml"/>
+		<itemref idref="chapter-2.xhtml"/>
+		<itemref idref="chapter-3.xhtml"/>
+		<itemref idref="chapter-4.xhtml"/>
+		<itemref idref="chapter-5.xhtml"/>
+		<itemref idref="chapter-6.xhtml"/>
+		<itemref idref="chapter-7.xhtml"/>
+		<itemref idref="appendix.xhtml"/>
+		<itemref idref="chapter-8.xhtml"/>
+		<itemref idref="chapter-9.xhtml"/>
+		<itemref idref="chapter-10.xhtml"/>
+		<itemref idref="chapter-11.xhtml"/>
+		<itemref idref="chapter-12.xhtml"/>
+		<itemref idref="chapter-13.xhtml"/>
+		<itemref idref="chapter-14.xhtml"/>
+		<itemref idref="chapter-15.xhtml"/>
+		<itemref idref="chapter-16.xhtml"/>
+		<itemref idref="chapter-17.xhtml"/>
+		<itemref idref="chapter-18.xhtml"/>
+		<itemref idref="chapter-19.xhtml"/>
+		<itemref idref="glossary.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
+		<itemref idref="loi.xhtml"/>
+		<itemref idref="colophon.xhtml"/>
+		<itemref idref="unlicense.xhtml"/>
+	</spine>
+</package>

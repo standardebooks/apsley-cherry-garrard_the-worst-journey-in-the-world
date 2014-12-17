@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+i i{
+	font-style: normal;
+}
+
+.signature{
+	font-variant: small-caps;
+}
+
+.voice,
+abbr.temperature,
+abbr.timezone,
+abbr.initialism{
+	font-variant: all-small-caps;
+}
+
+.center{
+	text-align: center;
+}
+
+p.signature{
+	margin-top: 1.5em;
+	text-align: right;
+}
+
+*[epub|type~="z3998:verse"] p,
+*[epub|type~="z3998:poem"] p,
+div[epub|type~="z3998:verse"] + p,
+div[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
+p[epub|type~="z3998:postscript"]{
+	text-indent: 0;
+	margin-top: 1em;
+}
+
+*[epub|type~="z3998:scene"] > span{
+	display: block;
+}
+
+*[epub|type~="z3998:verse"] p + p,
+*[epub|type~="z3998:poem"] p + p,
+*[epub|type~="z3998:scene"] > span + span{
+	margin-top: 1em;
+}
+
+*[epub|type~="z3998:poem"] span,
+*[epub|type~="z3998:verse"] span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+*[epub|type~="z3998:poem"] br,
+*[epub|type~="z3998:verse"] br{
+	display: none;
+}
+
+*[epub|type~="z3998:poem"] .right{
+	display: block;
+	text-align: right;
+}
+
+span[epub|type~="subtitle"]{
+	display: block;
+}
+
+p[epub|type~="se:letter:dateline"],
+p[epub|type~="se:diary:dateline"]{
+	text-align: right;
+}
+
+*[epub|type~="z3998:diary-entry"] p:first-child,
+*[epub|type~="z3998:diary-entry"] p[epub|type~="se:diary:dateline"] + p,
+p[epub|type~="se:letter:dateline"] + p,
+section[epub|type~="z3998:diary"] + *,
+figure + p{
+	text-indent: 0;
+}
+
+section[epub|type~="z3998:diary"].no-header{
+	margin: 1em;
+}
+
+
+article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]:before,
+section[epub|type~="z3998:diary"] + *:before{
+	border-top: 1px solid;
+	content: '';
+	display: block;
+	height: 0;
+	margin: 1.5em auto;
+	width: 25%;
+}
+
+section[epub|type~="z3998:diary"]{
+	margin: 0 1em;
+}
+
+section[epub|type~="z3998:letter"]{
+	margin: 1em;
+}
+
+*[epub|type~="z3998:salutation"]{
+	font-style: italic;
+	text-indent: 0;
+}
+
+*[epub|type~="z3998:verse"],
+*[epub|type~="z3998:poem"]{
+	text-indent: 0;
+	margin: 1em;
+}
+
+*[epub|type~="bridgehead"]{
+	font-style: italic;
+	hyphens: none;
+	margin: 3em auto;
+	text-indent: 0;
+	max-width: 75%;
+}
+
+*[epub|type~="bridgehead"] cite{
+	display: block;
+	font-variant: small-caps;
+	text-align: right;
+	margin: 1em 0;
+}
+
+figure{
+	page-break-inside: avoid;
+	margin: 1em 0;
+	max-height: 100%;
+	text-align: center;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figcaption{
+	font-style: italic;
+	font-size: .75em;
+}
+
+section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
+	display: block;
+	font-size: .75em;
+}
+
+dd + dt{
+	margin-top: 1.5em;
+}
+
+dd p:first-child{
+	text-indent: 0;
+}
+
+#chapter-5 table,
+#chapter-11 table,
+#chapter-14 table,
+#chapter-17 table,
+#glossary table{
+	font-variant: small-caps;
+	margin: auto;
+	margin-bottom: 3em;
+}
+
+#glossary table{
+	margin-bottom: 0;
+	margin-top: 3em;
+}
+
+#chapter-5 table thead{
+	text-align: center;
+}
+
+#chapter-5 table td,
+#chapter-11 table td,
+#chapter-11 table th,
+#chapter-14 td,
+#chapter-14 th,
+#chapter-17 td,
+#chapter-17 th,
+#glossary th,
+#glossary td{
+	padding: 0 1em;
+}
+
+#chapter-7 table{
+	margin: 1em auto;
+	width: 70%;
+}
+
+#chapter-7 table th,
+#chapter-7 table td{
+	text-align: right;
+}
+
+#chapter-7 table th:first-child,
+#chapter-7 table td:first-child{
+	text-align: left;
+	width: 70%;
+}
+
+#chapter-7 table td:last-child{
+	font-weight: bold;
+}
+
+#chapter-11 table,
+#chapter-17 table,
+#glossary table{
+	text-align: left;
+}
+
+#chapter-14 table{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+.tables{
+	text-align: center;
+}
+
+.tables + p,
+table + p{
+	text-indent: 0;
+}
+
+#loi cite{
+	font-style: italic;
+	display: block;
+}
