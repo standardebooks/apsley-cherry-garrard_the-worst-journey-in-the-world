@@ -53,15 +53,15 @@
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world</meta>
 		<dc:creator id="author">Apsley Cherry-Garrard</dc:creator>
 		<meta property="file-as" refines="#author">Cherry-Garrard, Apsley</meta>
-		<meta property="se:url.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="illustrator">Edward A. Wilson</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Wilson, Edward A.</meta>
-		<meta property="se:url.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Edward_Adrian_Wilson</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Edward_Adrian_Wilson</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
 		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
-		<meta property="se:url.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
