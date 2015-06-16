@@ -237,3 +237,7 @@ table + p{
 	font-style: italic;
 	display: block;
 }
+
+abbr.name{
+	white-space: nowrap;
+}
