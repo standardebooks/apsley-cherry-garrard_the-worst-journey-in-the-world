@@ -115,12 +115,18 @@ section[epub|type~="z3998:letter"]{
 	margin: 1em;
 }
 
+section > header{
+	text-align: center;
+}
+
 *[epub|type~="bridgehead"]{
 	font-style: italic;
 	hyphens: none;
-	margin: 3em auto;
+	margin: 3em;
+	margin-top: 0;
+	text-align: left;
 	text-indent: 0;
-	max-width: 75%;
+	display: inline-block;
 }
 
 *[epub|type~="bridgehead"] cite{
