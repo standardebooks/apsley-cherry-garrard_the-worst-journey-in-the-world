@@ -27,8 +27,8 @@ p.signature{
 
 *[epub|type~="z3998:verse"] p,
 *[epub|type~="z3998:poem"] p,
-div[epub|type~="z3998:verse"] + p,
-div[epub|type~="z3998:poem"] + p{
+*[epub|type~="z3998:verse"] + p,
+*[epub|type~="z3998:poem"] + p{
 	text-indent: 0;
 }
 
