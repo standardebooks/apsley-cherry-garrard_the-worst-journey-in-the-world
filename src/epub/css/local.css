@@ -66,6 +66,7 @@ p[epub|type~="z3998:postscript"]{
 
 span[epub|type~="subtitle"]{
 	display: block;
+	font-weight: normal;
 }
 
 p[epub|type~="se:letter.dateline"],
