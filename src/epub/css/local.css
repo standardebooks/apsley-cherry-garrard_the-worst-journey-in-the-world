@@ -59,10 +59,9 @@ p[epub|type~="z3998:postscript"]{
 	display: none;
 }
 
-*[epub|type~="z3998:poem"] span.i1,
-*[epub|type~="z3998:verse"] span.i1{
-	text-indent: 0;
-
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
 }
 
 *[epub|type~="z3998:poem"] .right{
