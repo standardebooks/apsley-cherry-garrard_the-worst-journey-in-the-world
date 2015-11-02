@@ -10,9 +10,7 @@ i i{
 }
 
 .voice,
-abbr.temperature,
-abbr.timezone,
-abbr.initialism{
+abbr.temperature{
 	font-variant: all-small-caps;
 }
 
@@ -41,7 +39,6 @@ p[epub|type~="z3998:postscript"]{
 	display: block;
 }
 
-*[epub|type~="z3998:verse"] p + p,
 *[epub|type~="z3998:poem"] p + p,
 *[epub|type~="z3998:scene"] > span + span{
 	margin-top: 1em;
