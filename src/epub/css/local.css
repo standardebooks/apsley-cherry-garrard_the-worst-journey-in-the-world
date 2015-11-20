@@ -122,7 +122,7 @@ section > header{
 	text-align: center;
 }
 
-*[epub|type~="bridgehead"]{
+*[epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	margin: 3em;
@@ -132,11 +132,12 @@ section > header{
 	display: inline-block;
 }
 
-*[epub|type~="bridgehead"] cite{
-	display: block;
-	font-variant: small-caps;
-	text-align: right;
-	margin: 1em 0;
+*[epub|type~="epigraph"] cite{
+	font-style: normal;
+}
+
+*[epub|type~="epigraph"] cite i{
+	font-style: italic;
 }
 
 figure{
