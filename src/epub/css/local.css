@@ -133,7 +133,9 @@ section > header{
 }
 
 *[epub|type~="epigraph"] cite{
+	margin-top: 1em;
 	font-style: normal;
+	font-variant: small-caps;
 }
 
 *[epub|type~="epigraph"] cite i{
