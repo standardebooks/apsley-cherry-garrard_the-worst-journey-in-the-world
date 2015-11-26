@@ -23,10 +23,10 @@ p.signature{
 	text-align: right;
 }
 
-*[epub|type~="z3998:verse"] p,
-*[epub|type~="z3998:poem"] p,
-*[epub|type~="z3998:verse"] + p,
-*[epub|type~="z3998:poem"] + p{
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:poem"] p,
+[epub|type~="z3998:verse"] + p,
+[epub|type~="z3998:poem"] + p{
 	text-indent: 0;
 }
 
@@ -35,24 +35,24 @@ p[epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:scene"] > span{
+[epub|type~="z3998:scene"] > span{
 	display: block;
 }
 
-*[epub|type~="z3998:poem"] p + p,
-*[epub|type~="z3998:scene"] > span + span{
+[epub|type~="z3998:poem"] p + p,
+[epub|type~="z3998:scene"] > span + span{
 	margin-top: 1em;
 }
 
-*[epub|type~="z3998:poem"] span,
-*[epub|type~="z3998:verse"] span{
+[epub|type~="z3998:poem"] span,
+[epub|type~="z3998:verse"] span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-*[epub|type~="z3998:poem"] br,
-*[epub|type~="z3998:verse"] br{
+[epub|type~="z3998:poem"] br,
+[epub|type~="z3998:verse"] br{
 	display: none;
 }
 
@@ -61,7 +61,7 @@ p span.i1{
 	padding-left: 2em;
 }
 
-*[epub|type~="z3998:poem"] .right{
+[epub|type~="z3998:poem"] .right{
 	display: block;
 	text-align: right;
 }
@@ -76,8 +76,8 @@ p[epub|type~="se:diary.dateline"]{
 	text-align: right;
 }
 
-*[epub|type~="z3998:diary-entry"] p:first-child,
-*[epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p,
+[epub|type~="z3998:diary-entry"] p:first-child,
+[epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p,
 p[epub|type~="se:letter.dateline"] + p,
 section[epub|type~="z3998:diary"] + *,
 figure + p{
@@ -107,13 +107,13 @@ section[epub|type~="z3998:letter"]{
 	margin: 1em;
 }
 
-*[epub|type~="z3998:salutation"]{
+[epub|type~="z3998:salutation"]{
 	font-style: italic;
 	text-indent: 0;
 }
 
-*[epub|type~="z3998:verse"],
-*[epub|type~="z3998:poem"]{
+[epub|type~="z3998:verse"],
+[epub|type~="z3998:poem"]{
 	text-indent: 0;
 	margin: 1em;
 }
@@ -122,7 +122,7 @@ section > header{
 	text-align: center;
 }
 
-*[epub|type~="epigraph"]{
+[epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
 	margin: 3em;
@@ -132,13 +132,13 @@ section > header{
 	display: inline-block;
 }
 
-*[epub|type~="epigraph"] cite{
+[epub|type~="epigraph"] cite{
 	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
 }
 
-*[epub|type~="epigraph"] cite i{
+[epub|type~="epigraph"] cite i{
 	font-style: italic;
 }
 
