@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2015-12-10T22:46:34Z</meta>
+		<meta property="dcterms:modified">2015-12-28T06:53:16Z</meta>
 		<dc:rights>Public domain; see the Unlicense included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,7 +48,7 @@
 		<dc:source>https://archive.org/stream/worstjourneyinwo01</dc:source>
 		<dc:source>https://archive.org/stream/worstjourneyinwo02</dc:source>
 		<meta property="se:production-notes">Some very long inline quotations have been broken out into blockquotes; they've been marked with the data-note="breakout" attribute.  All quotations in their own paragraph have been wrapped in blockquotes.  Ship names have been italicized.  "Ibid." endnotes have been replaced with their actual reference.  Instances of "Fahr." replaced with "F".</meta>
-		<meta property="se:word-count">242148</meta>
+		<meta property="se:word-count">242152</meta>
 		<meta property="se:reading-ease.flesch">66.47</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world</meta>
