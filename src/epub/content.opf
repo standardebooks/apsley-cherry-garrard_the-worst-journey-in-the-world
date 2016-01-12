@@ -3,7 +3,7 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world</dc:identifier>
 		<dc:date>2015-05-12T00:01:00Z</dc:date>
-		<meta property="dcterms:modified">2016-01-08T01:02:27Z</meta>
+		<meta property="dcterms:modified">2016-01-12T00:37:52Z</meta>
 		<dc:rights>Public domain; see the Unlicense included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,7 +35,7 @@
 		<meta property="se:subject">Travel</meta>
 		<meta property="se:subject">Non-fiction</meta>
 		<meta property="se:subject">Memoir</meta>
-		<dc:description id="description">The travelogue of a member of Robert Scott's ill-fated Antarctic expedition of 1910.</dc:description>
+		<dc:description id="description">The travelogue of a member of Robert Scott’s ill-fated Antarctic expedition of 1910.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1910 famous explorer Robert Falcon Scott led the Terra Nova Expedition to the South Pole.  The expedition was part scientific and part adventure: Scott wanted to be the first to reach the pole.&lt;/p&gt;
