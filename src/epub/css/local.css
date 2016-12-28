@@ -253,3 +253,7 @@ table + p{
 abbr.name{
 	white-space: nowrap;
 }
+
+li > :first-child{
+	text-indent: 0;
+}
