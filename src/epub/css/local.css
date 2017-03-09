@@ -51,8 +51,8 @@ p[epub|type~="z3998:postscript"]{
 	padding-left: 1em;
 }
 
-[epub|type~="z3998:poem"] br,
-[epub|type~="z3998:verse"] br{
+[epub|type~="z3998:poem"] p > span + br,
+[epub|type~="z3998:verse"] p > span + br{
 	display: none;
 }
 
