@@ -23,13 +23,6 @@ p.signature{
 	text-align: right;
 }
 
-[epub|type~="z3998:verse"] p,
-[epub|type~="z3998:poem"] p,
-[epub|type~="z3998:verse"] + p,
-[epub|type~="z3998:poem"] + p{
-	text-indent: 0;
-}
-
 p[epub|type~="z3998:postscript"]{
 	text-indent: 0;
 	margin-top: 1em;
@@ -39,13 +32,25 @@ p[epub|type~="z3998:postscript"]{
 	display: block;
 }
 
+[epub|type~="z3998:verse"] p,
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+
+[epub|type~="z3998:verse"] + p,
+[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:poem"] p + p,
 [epub|type~="z3998:scene"] > span + span{
 	margin-top: 1em;
 }
 
-[epub|type~="z3998:poem"] span,
-[epub|type~="z3998:verse"] span{
+[epub|type~="z3998:poem"] p > span,
+[epub|type~="z3998:verse"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
