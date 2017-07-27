@@ -260,6 +260,8 @@ abbr.name{
 	white-space: nowrap;
 }
 
-li > :first-child{
+li > :first-child,
+ul + p,
+ol + p{
 	text-indent: 0;
 }
