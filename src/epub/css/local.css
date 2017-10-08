@@ -90,7 +90,6 @@ p[epub|type~="se:diary.dateline"]{
 	text-align: right;
 }
 
-[epub|type~="z3998:diary-entry"] p:first-child,
 [epub|type~="z3998:diary-entry"] p[epub|type~="se:diary.dateline"] + p,
 p[epub|type~="se:letter.dateline"] + p,
 section[epub|type~="z3998:diary"] + *,
@@ -184,10 +183,6 @@ dd + dt{
 	margin-top: 1.5em;
 }
 
-dd p:first-child{
-	text-indent: 0;
-}
-
 #chapter-5 table,
 #chapter-11 table,
 #chapter-14 table,
@@ -255,8 +250,7 @@ dd p:first-child{
 	text-align: center;
 }
 
-.tables + p,
-table + p{
+.tables + p{
 	text-indent: 0;
 }
 
@@ -267,10 +261,4 @@ table + p{
 
 abbr.name{
 	white-space: nowrap;
-}
-
-li > :first-child,
-ul + p,
-ol + p{
-	text-indent: 0;
 }
