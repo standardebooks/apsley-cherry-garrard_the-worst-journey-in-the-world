@@ -191,7 +191,7 @@ dd + dt{
 	margin-bottom: 3em;
 }
 
-#glossary table{
+[epub|type~="glossary"] table{
 	margin-bottom: 0;
 	margin-top: 3em;
 }
@@ -252,7 +252,7 @@ dd + dt{
 	text-indent: 0;
 }
 
-#loi cite{
+[epub|type~="loi"] cite{
 	font-style: italic;
 	display: block;
 }
