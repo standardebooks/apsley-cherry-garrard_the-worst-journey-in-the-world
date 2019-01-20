@@ -264,11 +264,11 @@ dd + dt{
 	vertical-align: top;
 }
 
-.tables{
+#chapter-14 header + div{
 	text-align: center;
 }
 
-.tables + p{
+#chapter-14 header + div + p{
 	text-indent: 0;
 }
 
