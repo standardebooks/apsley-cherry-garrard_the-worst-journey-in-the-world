@@ -26,7 +26,7 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Worst Journey in the World</dc:title>
 		<meta property="file-as" refines="#title">Worst Journey in the World, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
@@ -39,21 +39,23 @@
 		<dc:subject id="subject-2">Cherry-Garrard, Apsley, 1886-1959--Travel--Antarctica</dc:subject>
 		<dc:subject id="subject-3">Antarctica--Discovery and exploration--British</dc:subject>
 		<dc:subject id="subject-4">Scott, Robert Falcon, 1868-1912--Travel--Antarctica</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">http://lccn.loc.gov/2002025089</meta>
-		<meta property="meta-auth" refines="#subject-2">http://lccn.loc.gov/2002025089</meta>
-		<meta property="meta-auth" refines="#subject-3">http://lccn.loc.gov/2002025089</meta>
-		<meta property="meta-auth" refines="#subject-4">http://lccn.loc.gov/2002025089</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">Unknown</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008114197</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="se:subject">Travel</meta>
 		<meta property="se:subject">Nonfiction</meta>
 		<meta property="se:subject">Memoir</meta>
 		<dc:description id="description">The travelogue of a member of Robert Scott’s ill-fated Antarctic expedition of 1910.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1910 famous explorer Robert Falcon Scott led the Terra Nova Expedition to the South Pole. The expedition was part scientific and part adventure: Scott wanted to be the first to reach the pole.&lt;/p&gt;
 			&lt;p&gt;The expedition was beset by hardship from the beginning, and after realizing that they had been beaten to the pole by Roald Amundsen’s Norwegian Expedition, the party suffered a final tragedy: the loss of Scott and his companions to the Antarctic cold on their return journey to base camp.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Worst Journey in the World&lt;/i&gt; is an autobiographical account of one of the survivors of the expedition, Apsley Cherry-Garrard. It’s a unique combination of fascinating scientific documentary, adventure novel, and with the inclusion of Scott’s final journal entries, horror story. &lt;i&gt;Journey&lt;/i&gt; is peppered throughout with journal entries, illustrations, and pictures from Cherry-Garrard’s companions, making it a fascinating window into the majesty and danger of the Antarctic.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/14363</dc:source>
 		<dc:source>https://archive.org/details/worstjourneyinwo01</dc:source>
