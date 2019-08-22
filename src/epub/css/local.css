@@ -188,6 +188,7 @@ figure img{
 figcaption{
 	font-style: italic;
 	font-size: .75em;
+	margin: 1em;
 }
 
 section[epub|type~="halftitlepage"] span[epub|type~="subtitle"]{
