@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="appendix.xhtml">
+		<ignore>
+			<code>s-037</code>
+			<reason>This appendix is the appendix to volume 1, so it is not strictly backmatter.</reason>
+		</ignore>
+	</file>
+	<file path="*.xhtml">
+		<ignore>
+			<code>s-041</code>
+			<reason>&lt;figcaption&gt;s differ from the LoI entries to follow the print version, which provides more detail in the LoI entries.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
