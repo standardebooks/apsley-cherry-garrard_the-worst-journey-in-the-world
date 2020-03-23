@@ -139,7 +139,8 @@ section[epub|type~="z3998:letter"]{
 	margin: 1em;
 }
 
-blockquote header p{
+blockquote header p,
+section section > header{
 	font-variant: small-caps;
 	margin: 3em;
 }
