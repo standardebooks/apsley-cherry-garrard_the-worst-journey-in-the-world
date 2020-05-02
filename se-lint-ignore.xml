@@ -12,4 +12,10 @@
 			<reason>&lt;figcaption&gt;s differ from the LoI entries to follow the print version, which provides more detail in the LoI entries.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-17.xhtml">
+		<ignore>
+			<code>t-041</code>
+			<reason>The question mark position is part of the journal entry.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
