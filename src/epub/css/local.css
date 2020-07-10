@@ -216,11 +216,6 @@ dd + dt{
 	margin-right: auto;
 }
 
-[epub|type~="glossary"] table{
-	margin-bottom: 0;
-	margin-top: 3em;
-}
-
 #chapter-5 table thead{
 	text-align: center;
 }
@@ -261,6 +256,19 @@ dd + dt{
 #chapter-17 table,
 #glossary table{
 	text-align: left;
+}
+
+#glossary table{
+	margin-bottom: 0;
+	margin-top: 1em;
+}
+
+#glossary table td:first-child{
+	text-align: right;
+}
+
+#glossary table td{
+	font-variant-numeric: tabular-nums;
 }
 
 #chapter-14 table{
