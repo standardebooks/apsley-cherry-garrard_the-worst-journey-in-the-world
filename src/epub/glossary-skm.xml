@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search-key-map xml:lang="en">
+	<search-key-group href="text/glossary.xhtml#blizzard">
+		<match value="blizzard">
+			<value value="blizzards"/>
+			<value value="blizzed"/>
+			<value value="blizzing"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#brash">
+		<match value="brash"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#cloud">
+		<match value="altostratus"/>
+		<match value="cirrus"/>
+		<match value="cumulus"/>
+		<match value="stratus"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#crust">
+		<match value="crust">
+			<value value="crusted"/>
+			<value value="crustier"/>
+			<value value="crusts"/>
+			<value value="crusty"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#finnesko">
+		<match value="finnesko"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#frost_smoke">
+		<match value="frost smoke"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#ice-foot">
+		<match value="ice foot">
+			<value value="ice-foot"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#nunatak">
+		<match value="nunatak">
+			<value value="nunataks"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#piedmont">
+		<match value="piedmont"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#pram">
+		<match value="pram"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#saennegrass">
+		<match value="saennegrass"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#sastrugi">
+		<match value="sastrugi">
+			<value value="sastrugus"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#sledging_distances">
+		<match value="mile">
+			<value value="miles"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#tank">
+		<match value="tank"/>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#tide_crack">
+		<match value="tide crack">
+			<value value="tide-crack"/>
+		</match>
+	</search-key-group>
+	<search-key-group href="text/glossary.xhtml#wind">
+		<match value="wind force">
+			<value value="wind forces"/>
+			<value value="Beaufort scale"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-1" title="wind force 1">
+			<value value="force 1"/>			<!--none-->
+			<value value="light airs"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-2" title="wind force 2">
+			<value value="force 2"/>			<!--none-->
+			<value value="light breeze"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-3" title="wind force 3">
+			<value value="force 3"/>
+			<value value="gentle breeze"/>		<!--none-->
+		</match>
+		<match href="text/glossary.xhtml#wind-force-4" title="wind force 4">
+			<value value="force 4"/>
+			<value value="moderate breeze"/>	<!--none-->
+		</match>
+		<match href="text/glossary.xhtml#wind-force-5" title="wind force 5">
+			<value value="force 5"/>
+			<value value="fresh breeze"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-6" title="wind force 6">
+			<value value="force 6"/>			<!--none-->
+			<value value="strong breeze"/>		<!--none-->
+		</match>
+		<match href="text/glossary.xhtml#wind-force-7" title="wind force 7">
+			<value value="force 7"/>			<!--none-->
+			<value value="moderate gale"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-8" title="wind force 8">
+			<value value="force 8"/>
+			<value value="fresh gale"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-9" title="wind force 9">
+			<value value="force 9"/>
+			<value value="strong gale"/>		<!--none-->
+		</match>
+		<match href="text/glossary.xhtml#wind-force-10" title="wind force 10">
+			<value value="force 10"/>
+			<value value="whole gale"/>			<!--none-->
+		</match>
+		<match href="text/glossary.xhtml#wind-force-11" title="wind force 11">
+			<value value="force 11"/>
+			<value value="storm force"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-12" title="wind force 12">
+			<value value="force 12"/>
+			<value value="full hurricane"/>
+		</match>
+	</search-key-group>
+</search-key-map>
