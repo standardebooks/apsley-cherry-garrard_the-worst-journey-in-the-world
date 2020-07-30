@@ -144,6 +144,7 @@ section section > header{
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
+	-epub-hyphens: none;
 }
 
 [epub|type~="epigraph"] cite{
@@ -177,7 +178,7 @@ section > header [epub|type~="epigraph"] + *{
 /* End epigraphs in section headers */
 
 figure{
-	page-break-inside: avoid;
+	break-inside: avoid;
 	margin: 1em 0;
 	max-height: 100%;
 	text-align: center;
@@ -317,6 +318,7 @@ dd + dt{
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
 	hyphens: none;
+	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
 }
