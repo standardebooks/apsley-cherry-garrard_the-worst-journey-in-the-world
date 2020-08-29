@@ -106,10 +106,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 	</metadata>
 	<manifest>
-		<item href="glossary-skm.xml" id="glossary-skm.xml" mime-type="application/vnd.epub.search-key-map+xml" properties="search-key-map glossary"/>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="glossary-search-key-map.xml" id="glossary-search-key-map.xml" media-type="application/vnd.epub.search-key-map+xml" properties="glossary search-key-map"/>
 		<item href="images/a-blizzard-camp.jpg" id="a-blizzard-camp.jpg" media-type="image/jpeg"/>
 		<item href="images/a-cornice-of-snow.jpg" id="a-cornice-of-snow.jpg" media-type="image/jpeg"/>
 		<item href="images/a-halo-round-the-moon.jpg" id="a-halo-round-the-moon.jpg" media-type="image/jpeg"/>
