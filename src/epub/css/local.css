@@ -71,11 +71,6 @@ p span.i2{
 	text-align: right;
 }
 
-span[epub|type~="subtitle"]{
-	display: block;
-	font-weight: normal;
-}
-
 p[epub|type~="se:letter.dateline"],
 p[epub|type~="se:diary.dateline"]{
 	text-align: right;
