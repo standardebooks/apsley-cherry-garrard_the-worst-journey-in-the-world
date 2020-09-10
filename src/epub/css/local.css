@@ -5,7 +5,7 @@ i i{
 	font-style: normal;
 }
 
-[epub:type~="z3998:signature"]{
+[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
 
@@ -19,7 +19,7 @@ abbr.temperature{
 	text-align: center;
 }
 
-p[epub:type~="z3998:signature"]{
+p[epub|type~="z3998:signature"]{
 	margin-top: 1.5em;
 	text-align: right;
 }
