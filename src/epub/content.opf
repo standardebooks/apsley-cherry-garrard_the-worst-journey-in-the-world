@@ -109,6 +109,7 @@
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
+		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="glossary-search-key-map.xml" id="glossary-search-key-map.xml" media-type="application/vnd.epub.search-key-map+xml" properties="glossary search-key-map"/>
 		<item href="images/a-blizzard-camp.jpg" id="a-blizzard-camp.jpg" media-type="image/jpeg"/>
 		<item href="images/a-cornice-of-snow.jpg" id="a-cornice-of-snow.jpg" media-type="image/jpeg"/>
