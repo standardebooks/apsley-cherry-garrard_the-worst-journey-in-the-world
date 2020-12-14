@@ -13,6 +13,7 @@ abbr.temperature{
 #chapter-12-subchapter-4 > section > p:last-child{
 	margin-top: 1em;
 	text-align: center;
+	text-indent: 0;
 }
 
 p[epub|type~="z3998:signature"]{
@@ -103,6 +104,10 @@ section[epub|type~="z3998:diary"]{
 
 header > p + blockquote[epub|type~="epigraph"]{
 	margin-top: 3em;
+}
+
+header > p{
+	text-indent: 0;
 }
 
 section[epub|type~="z3998:letter"]{
