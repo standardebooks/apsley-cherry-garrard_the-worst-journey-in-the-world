@@ -28,7 +28,7 @@ p[epub|type~="z3998:postscript"]{
 
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -158,7 +158,7 @@ section > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 section > header [epub|type~="epigraph"] + *{
@@ -234,7 +234,7 @@ dd + dt{
 
 #chapter-7 table th:first-child,
 #chapter-7 table td:first-child{
-	text-align: left;
+	text-align: initial;
 	width: 70%;
 }
 
@@ -245,7 +245,7 @@ dd + dt{
 #chapter-11 table,
 #chapter-17 table,
 #glossary table{
-	text-align: left;
+	text-align: initial;
 }
 
 #glossary table{
@@ -263,7 +263,7 @@ dd + dt{
 
 #chapter-14 table{
 	display: inline-block;
-	text-align: left;
+	text-align: initial;
 	vertical-align: top;
 }
 
