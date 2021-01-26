@@ -72,6 +72,9 @@
 			<value value="wind forces"/>
 			<value value="Beaufort scale"/>
 		</match>
+		<match href="text/glossary.xhtml#wind-force-0" title="wind force 0">
+			<value value="calm"/>
+		</match>
 		<match href="text/glossary.xhtml#wind-force-1" title="wind force 1">
 			<value value="light airs"/>
 		</match>
@@ -87,6 +90,9 @@
 		<match href="text/glossary.xhtml#wind-force-5" title="wind force 5">
 			<value value="force 5"/>
 			<value value="fresh breeze"/>
+		</match>
+		<match href="text/glossary.xhtml#wind-force-6" title="wind force 6">
+			<value value="strong breeze"/>
 		</match>
 		<match href="text/glossary.xhtml#wind-force-7" title="wind force 7">
 			<value value="moderate gale"/>
