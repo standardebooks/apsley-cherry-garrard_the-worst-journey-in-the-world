@@ -30,9 +30,9 @@
 		<dc:title id="title">The Worst Journey in the World</dc:title>
 		<meta property="file-as" refines="#title">Worst Journey in the World, The</meta>
 		<meta property="title-type" refines="#title">main</meta>
-		<dc:title id="subtitle">Antarctic 1910-1913</dc:title>
+		<dc:title id="subtitle">Antarctic 1910–1913</dc:title>
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
-		<dc:title id="fulltitle">The Worst Journey in the World: Antarctic 1910-1913</dc:title>
+		<dc:title id="fulltitle">The Worst Journey in the World: Antarctic 1910–1913</dc:title>
 		<meta property="file-as" refines="#fulltitle">Worst Journey in the World, The</meta>
 		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">British Antarctic ("Terra Nova") Expedition (1910-1913)</dc:subject>
