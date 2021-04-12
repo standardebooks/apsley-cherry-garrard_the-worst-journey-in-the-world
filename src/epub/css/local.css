@@ -173,8 +173,8 @@ section > header [epub|type~="epigraph"] + *{
 
 figure{
 	break-inside: avoid;
-	margin: 1em 0;
-	max-height: 100%;
+	margin: 1em auto;
+	max-height: 100vh;
 	text-align: center;
 }
 
@@ -185,8 +185,8 @@ figure img{
 }
 
 figcaption{
-	font-style: italic;
 	font-size: .75em;
+	font-style: italic;
 	margin: 1em;
 }
 
