@@ -91,9 +91,6 @@
 			<value value="force 5"/>
 			<value value="fresh breeze"/>
 		</match>
-		<match href="text/glossary.xhtml#wind-force-6" title="wind force 6">
-			<value value="strong breeze"/>
-		</match>
 		<match href="text/glossary.xhtml#wind-force-7" title="wind force 7">
 			<value value="moderate gale"/>
 		</match>
