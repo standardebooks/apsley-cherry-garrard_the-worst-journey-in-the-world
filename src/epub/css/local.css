@@ -6,7 +6,7 @@
 }
 
 .voice,
-abbr.temperature{
+[epub|type~="se:temperature"]{
 	font-variant: all-small-caps;
 }
 
