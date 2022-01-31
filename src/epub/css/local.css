@@ -22,8 +22,8 @@ p[epub|type~="z3998:signature"]{
 }
 
 p[epub|type~="z3998:postscript"]{
-	text-indent: 0;
 	margin-top: 1em;
+	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p,
@@ -124,8 +124,8 @@ section[epub|type~="z3998:letter"]{
 
 [epub|type~="z3998:verse"],
 [epub|type~="z3998:poem"]{
-	text-indent: 0;
 	margin: 1em;
+	text-indent: 0;
 }
 
 blockquote header p,
@@ -142,9 +142,9 @@ section section > header{
 }
 
 [epub|type~="epigraph"] cite{
-	margin-top: 1em;
 	font-style: normal;
 	font-variant: small-caps;
+	margin-top: 1em;
 }
 
 [epub|type~="epigraph"] cite i{
@@ -275,8 +275,8 @@ dd + dt{
 }
 
 [epub|type~="loi"] cite{
-	font-style: italic;
 	display: block;
+	font-style: italic;
 }
 
 table[epub|type~="z3998:drama"]{
@@ -294,8 +294,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
