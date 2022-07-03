@@ -16,7 +16,7 @@
 		<match value="cumulus"/>
 		<match value="stratus"/>
 	</search-key-group>
-	<search-key-group href="text/glossary.xhtml#crust">
+	<search-key-group href="text/glossary.xhtml#crusts">
 		<match value="crust">
 			<value value="crusted"/>
 			<value value="crustier"/>
