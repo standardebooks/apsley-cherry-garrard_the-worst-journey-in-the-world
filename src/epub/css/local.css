@@ -173,7 +173,7 @@ section > header [epub|type~="epigraph"] + *{
 
 figure{
 	break-inside: avoid;
-	margin: 1em auto;
+	margin: 1em 40px;
 	max-height: 100vh;
 	text-align: center;
 }
