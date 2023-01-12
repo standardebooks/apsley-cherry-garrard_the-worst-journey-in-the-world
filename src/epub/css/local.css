@@ -230,6 +230,7 @@ dd + dt{
 }
 
 #chapter-7 table{
+	font-variant-numeric: tabular-nums;
 	margin: 1em auto;
 	width: 70%;
 }
