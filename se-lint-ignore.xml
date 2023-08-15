@@ -18,7 +18,7 @@
 			<reason>The question mark position is part of the journal entry.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
+			<code>y-022</code>
 			<reason>Matched text is as-is in print.</reason>
 		</ignore>
 	</file>
