@@ -64,7 +64,7 @@
 		<dc:source>https://archive.org/details/worstjourneyinwo02</dc:source>
 		<meta property="se:production-notes">Some very long inline quotations have been broken out into blockquotes; they've been marked with the data-note="breakout" attribute. All quotations in their own paragraph have been wrapped in blockquotes. Ship names have been italicized. "Ibid." endnotes have been replaced with their actual reference. Instances of "Fahr." replaced with "F".</meta>
 		<meta property="se:word-count">241375</meta>
-		<meta property="se:reading-ease.flesch">66.27</meta>
+		<meta property="se:reading-ease.flesch">66.37</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world</meta>
 		<dc:creator id="author">Apsley Cherry-Garrard</dc:creator>
