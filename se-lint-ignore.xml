@@ -7,14 +7,17 @@
 	</file>
 	<file path="chapter-14.xhtml">
 		<ignore code="c-014">
+			<line>21</line>
 			<reason>The table has a top margin from its parent.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-17.xhtml">
 		<ignore code="t-041">
+			<line>258</line>
 			<reason>The question mark position is part of the journal entry.</reason>
 		</ignore>
 		<ignore code="y-022">
+			<line>208</line>
 			<reason>Matched text is as-is in print.</reason>
 		</ignore>
 	</file>
