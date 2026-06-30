@@ -1,0 +1,1 @@
+Some very long inline quotations have been broken out into `<blockquote>` elements; they've been marked with the `data-note="breakout"` attribute. All quotations in their own paragraph have been wrapped in `<blockquote>` elements. Ship names have been italicized. "Ibid." endnotes have been replaced with their actual reference. Instances of "Fahr." replaced with "F".

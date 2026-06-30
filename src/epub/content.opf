@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/apsley-cherry-garrard/the-worst-journey-in-the-world</dc:identifier>
 		<dc:date>2014-05-25T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">2014-05-25T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -49,9 +50,9 @@
 		<meta property="term" refines="#subject-3">sh2008114197</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
-		<meta property="se:subject">Travel</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
+		<meta property="schema:genre">Travel</meta>
 		<dc:description id="description">The travelogue of a member of Robert Scott’s ill-fated Antarctic expedition of 1910.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In 1910 famous explorer Robert Falcon Scott led the Terra Nova Expedition to the South Pole. The expedition was part scientific and part adventure: Scott wanted to be the first to reach the pole.&lt;/p&gt;
@@ -62,42 +63,43 @@
 		<dc:source>https://www.gutenberg.org/ebooks/14363</dc:source>
 		<dc:source>https://archive.org/details/worstjourneyinwo01</dc:source>
 		<dc:source>https://archive.org/details/worstjourneyinwo02</dc:source>
-		<meta property="se:production-notes">Some very long inline quotations have been broken out into blockquotes; they've been marked with the data-note="breakout" attribute. All quotations in their own paragraph have been wrapped in blockquotes. Ship names have been italicized. "Ibid." endnotes have been replaced with their actual reference. Instances of "Fahr." replaced with "F".</meta>
-		<meta property="se:word-count">240563</meta>
-		<meta property="se:reading-ease.flesch">66.37</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world</meta>
+		<meta property="schema:wordCount">240563</meta>
+		<meta property="schema:educationalLevel">66.37</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Worst_Journey_in_the_World" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/apsley-cherry-garrard_the-worst-journey-in-the-world" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Apsley Cherry-Garrard</dc:creator>
 		<meta property="file-as" refines="#author">Cherry-Garrard, Apsley</meta>
-		<meta property="se:name.person.full-name" refines="#author">Apsley George Benet Cherry-Garrard</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85031311</meta>
+		<meta property="schema:alternateName" refines="#author">Apsley George Benet Cherry-Garrard</meta>
+		<link href="https://en.wikipedia.org/wiki/Apsley_Cherry-Garrard" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85031311.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">win</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="illustrator">Edward A. Wilson</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Wilson, Edward A.</meta>
-		<meta property="se:name.person.full-name" refines="#illustrator">Edward Adrian Wilson</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#illustrator">https://en.wikipedia.org/wiki/Edward_Adrian_Wilson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#illustrator">http://id.loc.gov/authorities/names/n50015519</meta>
+		<meta property="schema:alternateName" refines="#illustrator">Edward Adrian Wilson</meta>
+		<link href="https://en.wikipedia.org/wiki/Edward_Adrian_Wilson" refines="#illustrator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50015519.html" refines="#illustrator" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">pht</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
 		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79059754</meta>
+		<link href="https://en.wikipedia.org/wiki/Caspar_David_Friedrich" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79059754.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ted Garvin</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Garvin, Ted</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-2">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-2" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com/</meta>
+		<link href="https://alexcabal.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
