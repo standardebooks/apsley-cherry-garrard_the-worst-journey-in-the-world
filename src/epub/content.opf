@@ -53,7 +53,7 @@
 		<meta property="schema:genre">Memoir</meta>
 		<meta property="schema:genre">Nonfiction</meta>
 		<meta property="schema:genre">Travel</meta>
-		<dc:abstract>The travelogue of a member of Robert Scott’s ill-fated Antarctic expedition of 1910.</dc:abstract>
+		<meta property="schema:abstract">The travelogue of a member of Robert Scott’s ill-fated Antarctic expedition of 1910.</meta>
 		<dc:description>
 			&lt;p&gt;In 1910 famous explorer Robert Falcon Scott led the Terra Nova Expedition to the South Pole. The expedition was part scientific and part adventure: Scott wanted to be the first to reach the pole.&lt;/p&gt;
 			&lt;p&gt;The expedition was beset by hardship from the beginning, and after realizing that they had been beaten to the pole by Roald Amundsen’s Norwegian Expedition, the party suffered a final tragedy: the loss of Scott and his companions to the Antarctic cold on their return journey to base camp.&lt;/p&gt;
