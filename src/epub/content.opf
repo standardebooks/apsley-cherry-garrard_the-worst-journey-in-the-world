@@ -81,7 +81,7 @@
 		<dc:contributor id="illustrator">Edward A. Wilson</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Wilson, Edward A.</meta>
 		<meta property="schema:alternateName" refines="#illustrator">Edward Adrian Wilson</meta>
-		<link href="https://en.wikipedia.org/wiki/Edward_Adrian_Wilson" refines="#illustrator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Edward_Wilson_(explorer)" refines="#illustrator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50015519.html" refines="#illustrator" rel="schema:sameAs"/>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">ill</meta>
 		<meta property="role" refines="#illustrator" scheme="marc:relators">pht</meta>
